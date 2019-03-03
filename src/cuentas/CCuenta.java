@@ -3,13 +3,13 @@ package cuentas;
 public class CCuenta {
 
 
-    private String nomb;
+    private String nombre;
     public String getNombre() {
-		return nomb;
+		return nombre;
 	}
 
 	public void setNombre(String nombre) {
-		this.nomb = nombre;
+		this.nombre = nombre;
 	}
 
 	public String getCuenta() {
@@ -46,7 +46,7 @@ public class CCuenta {
 
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
-        nomb =nom;
+        nombre =nom;
         cuenta=cue;
         saldo=sal;
     }
